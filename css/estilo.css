@@ -64,6 +64,7 @@ footer#rodape h4{
 	color:#919496;
 	font-size:0.8em;
 	text-transform: uppercase;
+	border:1px solid red;
 }
 footer .navbar-nav a{
 	color:white;
