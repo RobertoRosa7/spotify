@@ -64,7 +64,7 @@ footer#rodape h4{
 	color:#919496;
 	font-size:0.8em;
 	text-transform: uppercase;
-	border:1px solid red;
+	padding-top: 18px;
 }
 footer .navbar-nav a{
 	color:white;
@@ -83,7 +83,7 @@ footer ul li{
 }
 footer .f-nav{
 	/*margin-top:220px;*/
-	height:340px;
+	height:320px;
 	font-size:0.9em;
 }
 footer .f-nav a{
