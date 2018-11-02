@@ -95,7 +95,14 @@ section.content{
 	border:1px solid #000;
 }
 input.btn-custom{
-
+	background-color:#1db954;
+	color:#fff;
+	border:none;
+	height:35px;
+}
+input.btn-custom:hover{
+	background-color: #13d760;
+	color:#fff;
 }
 /**
 *
