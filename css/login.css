@@ -33,6 +33,31 @@ section.content{
 	margin: 0 auto;
 	max-width:450px;
 }
+section.content .esqueceu{
+	text-align: center;
+	color:#1db954;
+	font-size:14px;
+	padding:20px 0 40px 0;
+}
+section.content .esqueceu span{
+	margin-right: 5px;
+	color:#000;
+}
+section.content .esqueceu a{
+	color:#1db954;
+	text-decoration: none;
+}
+section.content .esqueceu:hover{
+	color: #13d760;
+
+}
+section.content .termos-direitos{
+	font-size:.7em;
+	color:#c1c3c6;
+}
+section.content .termos-direitos a{
+	color:#1db954;
+}
 /**
 *
 =============================================================================*/
