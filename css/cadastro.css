@@ -29,5 +29,40 @@ strong{
 /**
 * Layouts
 */
-#form-cadastro{
+#form-cadastro .botao{
+	text-align:center;
+}
+#form-cadastro .botao a{
+	background-color: #3b5998;
+	border-radius: 500px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color:#fff;
+	font-size:13.5px;
+	width:100%;
+	font-weight: 700;
+	padding:15px 0;
+	line-height: 13.5px;
+}
+#form-cadastro .botao a:hover{
+	color:white;
+	text-decoration: none;
+	background-color: #3a61b3;
+}
+#form-cadastro .input-group label{
+	font-size:11px;
+	margin-left: 5px;
+	color:#88889c;
+	text-align: left;
+	font-weight: 400;
+}
+#form-cadastro .input-group label a{
+	color:#1db954;
+	text-decoration: none;
+}
+#form-cadastro .input-group label a:hover{
+	color: #13d760;
+}
+#form-cadastro .input-group input[type="checkbox"]{
+	margin-left: -20px;
 }
