@@ -1,0 +1,33 @@
+/**
+* Geral
+*/
+
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding:0;
+	color:#222;
+	font-size:16px;
+	font-weight: 400;
+	font-family: Circular, Helvetica,Ariel,sans-serif;
+}
+header{
+	text-align: center;
+	padding:25px;
+	border-bottom:1px solid #d9dacd;
+	margin-bottom: 27px;
+	/*margin-right: 5px;*/
+}
+a{
+	text-decoration: none;
+}
+strong{
+	font-weight: 700;
+}
+/**
+* Layouts
+*/
+#form-cadastro{
+}
