@@ -29,6 +29,9 @@ strong{
 /**
 * Layouts
 */
+#form-cadastro .content{
+	margin: 0 auto;
+}
 #form-cadastro .botao{
 	text-align:center;
 }
@@ -99,9 +102,10 @@ strong{
 	display:flex;
 	justify-content: space-between;
 	margin-bottom: 30px;
+	flex-wrap: nowrap;
 }
 #form-cadastro .date input[type="text"]{
-	width:100px;
+	width:20%;
 	height: 48px;
 }
 #form-cadastro fieldset label{
@@ -132,7 +136,13 @@ strong{
 #form-cadastro fieldset .termos label input{
 	margin-left: -20px;
 }
-
+#form-cadastro fieldset .entre{
+	text-align:center;
+	font-size:14px;
+}
+#form-cadastro fieldset .entre p a{
+	color:#1db954;
+}
 /*
 * Classes
 */
