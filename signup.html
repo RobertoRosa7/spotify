@@ -25,7 +25,7 @@
     <!-- Estilo customizado CSS -->
     <link rel="stylesheet" href="css/cadastro.css">
     
-    <title>Login - Spotify</title>
+    <title>Inscreva-se - Spotify</title>
 
     <!-- icone no title -->
     <link rel="icon" href="imagens/favicon.png">
@@ -64,6 +64,48 @@
                             <input type="email" class="form-control" placeholder="E-mail">
                             <input type="password" class="form-control" placeholder="Senha">
                             <input type="password" class="form-control" placeholder="Confirmar Senha">
+                            <input type="text" class="form-control" placeholder="como devemos chamar você">
+                        </div>
+
+                        <label for="">Data de nascimento</label>
+                        <div class="form-inline date">
+                            <input type="text" class="form-control" placeholder="Dia">
+                            <select name="mes" id="mes" class="form-control">
+                                <option value="mes">Mês</option>
+                                <option value="janeiro">Janeiro</option>
+                                <option value="fevereiro">Fevereiro</option>
+                                <option value="marco">Março</option>
+                                <option value="abril">Abril</option>
+                                <option value="maio">Maio</option>
+                                <option value="junho">Junho</option>
+                                <option value="julho">Julho</option>
+                                <option value="agosto">Agosto</option>
+                                <option value="aetembro">Setembro</option>
+                                <option value="outubro">Outubro</option>
+                                <option value="novembro">Novembro</option>
+                                <option value="dezembro">Dezembro</option>
+                            </select>
+                            <input type="text" class="form-control" placeholder="Dia">
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox">
+                            <label for="">Masculino</label>
+                             <input type="checkbox">
+                            <label for="">Feminino</label>
+                             <input type="checkbox">
+                            <label for="">Não binário</label>
+                            <div class="termos">
+                            <label for="">
+                                <input type="checkbox" class="control-input">
+                                Eu concordo com os <a href="">termos e condições</a> do Spotify.
+                                <br><br>
+                                Para saber mais sobre o Spotify coleta, processa, compartilha e protege seus
+                                dados pessoais, ela a <a href="">Politica de Privacidade</a> do Spotify
+                            </label>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12">
+                            <input type="submit" class="btn-submit btn btn-lg" value="Inscrever-se">
                         </div>
                     </fieldset>               
                 </div>
