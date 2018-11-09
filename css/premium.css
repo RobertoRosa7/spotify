@@ -4,13 +4,10 @@
 body{
 	background: #60b3fb;
 
-}
-nav.bg-trans{
-	background:rgba(0,0,0,0.0);
-	padding:15px 0;
+
 }
 #prem-conteudo-principal{
-	background:	radial-gradient(rgba(255,255,255,0.18), transparent),
+	background:	radial-gradient(rgba(255,255,255,0.13), transparent),
 				url(../imagens/spotify-premium_dancer.png);
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -23,7 +20,12 @@ nav.bg-trans{
 	font-size:96px;
 	letter-spacing: -2px;
 	line-height: 110px;
-	margin:12px 0;
+	margin:30px 0 0 0;
+}
+#prem-conteudo-principal .banner h3{
+	color:#fff;
+	font-size:36px;
+	font-weight: 700;
 }
 #prem-conteudo-principal .btn-experimente{
 	padding:17px 25px;
@@ -36,15 +38,89 @@ nav.bg-trans{
 	font-weight: 700;
 }
 #prem-conteudo-principal p{
-	font-size:10px;
+	font-size:11px;
 	color:#fff;
 	text-align:center;
 	margin: 50px 0 30px 0;
 	letter-spacing: 1px;
-	font-weight: 700;
 	opacity: .8;
 }
 #prem-conteudo-principal p a{
 	text-decoration: underline;
 	color:#fff;
+}
+.navbar-light .navbar-nav .nav-link{
+	color:white;
+	margin-left: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:blue;
+}
+/*
+* Media Queries
+=============================================================================*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px){
+	#prem-conteudo-principal{
+		opacity: 1;
+	}
+	#prem-conteudo-principal .banner h1{
+		font-size:46px;
+		line-height: 55px;
+		text-align: center;
+		margin: 0;
+	}
+	#prem-conteudo-principal .banner h3{
+		font-size:23px;
+		text-align:center;
+	}
+	#prem-conteudo-principal .btn-experimente{
+		padding:15px 25px;
+		margin: 30px 0;
+		width:300px;
+		border-radius:500px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size:14px;
+		font-weight: 700;
+	}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	#prem-conteudo-principal{
+		opacity: 1;
+	}
+	#prem-conteudo-principal .banner h1{
+		font-size:76px;
+		line-height: 80px;
+		text-align: center;
+		margin: 0;
+	}
+	#prem-conteudo-principal .banner h3{
+		font-size:23px;
+		text-align:center;
+	}
+	#prem-conteudo-principal .btn-experimente{
+		padding:15px 25px;
+		margin: 30px 0;
+		width:300px;
+		border-radius:500px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size:14px;
+		font-weight: 700;
+	}
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+
 }
