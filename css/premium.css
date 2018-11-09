@@ -1,0 +1,50 @@
+/*
+* Formatação apenas do conteúdo da página Premium
+*/ 
+body{
+	background: #60b3fb;
+
+}
+nav.bg-trans{
+	background:rgba(0,0,0,0.0);
+	padding:15px 0;
+}
+#prem-conteudo-principal{
+	background:	radial-gradient(rgba(255,255,255,0.18), transparent),
+				url(../imagens/spotify-premium_dancer.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#prem-conteudo-principal{
+	opacity: 0.9;
+}
+#prem-conteudo-principal .banner h1{
+	font-weight: 900;
+	font-size:96px;
+	letter-spacing: -2px;
+	line-height: 110px;
+	margin:12px 0;
+}
+#prem-conteudo-principal .btn-experimente{
+	padding:17px 25px;
+	margin: 30px 0;
+	width:350px;
+	border-radius:500px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size:14px;
+	font-weight: 700;
+}
+#prem-conteudo-principal p{
+	font-size:10px;
+	color:#fff;
+	text-align:center;
+	margin: 50px 0 30px 0;
+	letter-spacing: 1px;
+	font-weight: 700;
+	opacity: .8;
+}
+#prem-conteudo-principal p a{
+	text-decoration: underline;
+	color:#fff;
+}

@@ -10,7 +10,7 @@ body{
 				url(../imagens/ruido.png),/*imagem sobreposta no meio e com transparência*/
 				linear-gradient(50deg,#ff4169,#7c26f8); /*degrade por baixo*/
 	background-attachment: fixed;
-	font-family: Helvetica,Ariel,sans-serif;
+	font-family: 'Circular Std Black','Circular Std book', Helvetica,Ariel,sans-serif;
 }
 footer{
 	height:540px;
