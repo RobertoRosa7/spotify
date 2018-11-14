@@ -2,9 +2,7 @@
 * Formatação apenas do conteúdo da página Premium
 */ 
 body{
-	background: #60b3fb;
-
-
+	background:#60b3fb;
 }
 #prem-conteudo-principal{
 	background:	radial-gradient(rgba(255,255,255,0.13), transparent),
@@ -49,6 +47,23 @@ body{
 	text-decoration: underline;
 	color:#fff;
 }
+#prem-conteudo{
+	background:#fff;
+}
+#prem-conteudo h2{
+	color:#000;
+	text-align:center;
+	padding:30px 0;
+}
+#prem-conteudo p{
+	color:#575757;
+	font-weight: 400;
+	letter-spacing: -0.25px;
+	font-size:14px;
+	line-height: 24px;
+	font-family:Ariel,sans-serif;
+
+}
 .navbar-light .navbar-nav .nav-link{
 	color:white;
 	margin-left: 15px;
@@ -85,6 +100,12 @@ body{
 		font-weight: 700;
 		align-self: center;
 	}
+	#prem-conteudo h2{
+		font-size:1.6em;
+	}
+	.img-custom{
+		width:45%;
+	}
 
 }
 /*Small devices (landscape phones, 576px and up)*/
@@ -113,6 +134,13 @@ body{
 		font-weight: 700;
 		align-self: center;
 	}
+	#prem-conteudo h2{
+		font-size:2.5em;
+	}
+	.img-custom{
+		width:45%;
+	}
+
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px){
