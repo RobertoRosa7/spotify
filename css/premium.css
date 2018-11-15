@@ -77,6 +77,9 @@ body{
 #prem-oferta .custom-card .card-header{
 	background: #fff;
 }
+#prem-oferta .custom-card{
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.2);
+}
 #prem-oferta .card-header p{
 	text-align:left;
 	font-size:1.3em;
@@ -89,7 +92,7 @@ body{
 	padding: 15px 0;
 	text-align:left;
 	letter-spacing: 1px;
-	font-size:2.5em;
+	font-size:2.1em;
 	line-height: 12px;
 }
 #prem-oferta .card-header h1 span{
