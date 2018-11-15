@@ -62,8 +62,70 @@ body{
 	font-size:14px;
 	line-height: 24px;
 	font-family:Ariel,sans-serif;
-
 }
+#prem-oferta{
+	background: #f8f8f8;
+}
+#prem-oferta h1{
+	font-size:2.2em;
+	color:#000;
+	text-align: center;
+	padding:30px 0px;
+	margin: 0;
+}
+#prem-oferta .custom-card,
+#prem-oferta .custom-card .card-header{
+	background: #fff;
+}
+#prem-oferta .card-header p{
+	text-align:left;
+	font-size:1.3em;
+	font-family:Ariel,sans-serif;
+	font-weight: 400;
+	padding-top: 10px;
+}
+#prem-oferta .card-header h1{
+	margin: 0;
+	padding: 15px 0;
+	text-align:left;
+	letter-spacing: 1px;
+	font-size:2.5em;
+	line-height: 12px;
+}
+#prem-oferta .card-header h1 span{
+	font-size:16px;
+	font-weight: none;
+	font-family:Ariel,sans-serif;
+	font-weight: 400;
+}
+#prem-oferta .card-header h1 small{
+	font-family:Ariel,sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	color:#666;
+	display: inline;
+	letter-spacing: -0.50px;
+}
+#prem-oferta .card-header h1 #card-free{
+	opacity: 0;
+}
+#prem-oferta .card-header ul{
+	list-style: none;
+	padding:0;
+}
+#prem-oferta .card-header ul li{
+	font-family:Ariel,sans-serif;
+	font-size:14px;
+	padding:5px 0;
+}
+#prem-oferta .card-header ul li img{
+	padding:0px 10px;
+}
+/*
+* Classes
+*/
 .navbar-light .navbar-nav .nav-link{
 	color:white;
 	margin-left: 15px;
@@ -71,9 +133,17 @@ body{
 .navbar-light .navbar-nav .nav-link:hover{
 	color:blue;
 }
+.btn-offer{
+	border-radius:500px;
+	text-transform: uppercase;
+	font-size:0.9em;
+	padding:13px 0;
+	letter-spacing: 1.5px;
+	font-weight: 400;
+}
 /*
 * Media Queries
-=============================================================================*/
+*/
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px){
 	#prem-conteudo-principal{
@@ -144,6 +214,9 @@ body{
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px){
+	.img-custom{
+		width:70%;
+	}
 
 }
 /*Large devices (desktops, 992px and up)*/
